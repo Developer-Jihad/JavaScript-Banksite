@@ -64,5 +64,7 @@ document.getElementById('withdraw-button').addEventListener('click', function ()
         // Update Account Balance
         updateBalance(newWithdrawAmount, false);
 
-    }
+    }else {
+        alert("You Don't have sufficient Banlance");
+      }
 })

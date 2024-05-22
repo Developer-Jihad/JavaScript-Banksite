@@ -9,7 +9,7 @@ document.getElementById('login-submit').addEventListener('click', function(){
     const userPassword = passwordField.value;
 
     // Check Email & Password
-    if(userEmail == 'jihad@gmail.com' && userPassword == 'secret'){
+    // if(userEmail == 'jihad@gmail.com' && userPassword == 'secret'){
         window.location.href = 'banking.html';
-    }
+    // }
 })
